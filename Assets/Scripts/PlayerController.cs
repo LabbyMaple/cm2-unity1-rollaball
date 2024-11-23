@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
    void Start()
    {
        //Adding force to our ball when the game is initiated
-       GetComponent<Rigidbody>().AddForce(new Vector3(50, 500, 50));
+       GetComponent<Rigidbody>().AddForce(new Vector3(0,0,0));
    }
  
    // Update is called once per frame
